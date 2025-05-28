@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include <string>
 
 
@@ -16,5 +17,5 @@ private:
 
 int main()
 {
-	
+	HWClass hewwo;
 }
