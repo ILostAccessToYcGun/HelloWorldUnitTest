@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include <string>
 
 
@@ -13,8 +14,3 @@ public:
 private:
 
 };
-
-int main()
-{
-	
-}
