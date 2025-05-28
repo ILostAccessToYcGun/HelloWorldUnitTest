@@ -14,8 +14,3 @@ public:
 private:
 
 };
-
-int main()
-{
-	HWClass hewwo;
-}
