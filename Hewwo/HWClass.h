@@ -6,9 +6,9 @@
 class HWClass
 {
 public:
-	void HW(std::string)
+	void HW()
 	{
-		std::cout << "Hello World";
+		std::cout << "Hello World" << std::endl;
 	}
 
 private:

@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
+#include "HWClass.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    HWClass hewwo;
+    hewwo.HW();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
