@@ -6,11 +6,14 @@
 class HWClass
 {
 public:
-	void HW()
+	std::string GetHello()
 	{
-		std::cout << "Hello World" << std::endl;
+		return helloString;
 	}
-
+	void SetHello(std::string newHelloString)
+	{
+		helloString = newHelloString;
+	}
 private:
-
+	std::string helloString;
 };

@@ -7,7 +7,9 @@
 int main()
 {
     HWClass hewwo;
-    hewwo.HW();
+    hewwo.SetHello("Hello World...");
+    std::string returnHello = hewwo.GetHello();
+    std::cout << returnHello << std::endl;
     return 0;
 }
 
